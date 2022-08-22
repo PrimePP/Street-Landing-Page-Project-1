@@ -1,0 +1,178 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.navbar-container{
+   position:relative; 
+   margin: 3px 5px;
+}
+
+.navbar-container div img{
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.list{
+    list-style: none;
+    font-weight: 600;
+    margin-left: 420px;
+    margin-top: -25px;
+    
+}
+.list li:nth-child(1){
+    font-weight: 900;
+    font-size: 20px;
+    border-bottom: 3px solid black;
+}
+
+
+.list-item{
+    display: inline;
+    margin-right: 50px;
+    cursor:pointer;
+}
+
+.search-icon{
+    position:absolute;
+    left:1220px;
+    top:25px;
+    cursor: crosshair;
+
+}
+.nav-button{
+    position:absolute;
+    left:1250px;
+    top:20px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-top:3px;
+    padding-bottom: 3px;
+    padding-left: 35px;
+    padding-right: 35px;
+    cursor: grab;
+}
+
+.hero-container{
+    position: relative;
+}
+
+.globe{
+    position:absolute;
+    top:20px;
+    left:750px;
+}
+
+.globe img{
+    display: block;
+    width: 70px;
+}
+
+.star{
+    position:absolute;
+    top:100px;
+    left: 1200px;
+}
+
+.star img{
+    display: block;
+    width: 60px;
+}
+
+.square{
+    position: absolute;
+    top: 300px;
+    left: 120px;
+    z-index: -1;
+}
+
+.square img{
+    display: block;
+    /* width: 330px; */
+}
+.hero-container .person-image img{
+    display: block;
+    width: 450px;
+    height:550px;
+}
+
+.person-image{
+    position: absolute;
+    left: 20px;
+    top: 100px;
+}
+
+.hero-container-right{
+    position: absolute;
+    left: 670px;
+    top: 150px;
+}
+
+.hero-container-right .hero-heading{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.hero-container-right .hero-description{
+    font-size: 15px;
+    font-weight: 200px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 220px;
+    
+}
+
+.hero-container-right div button{
+    border: 3px solid black;
+    position: relative;
+    left: 190px;
+    font-family: 'Orbitron', sans-serif;
+    cursor: grab;
+}
+
+.button-email{
+    background: transparent;
+    border-radius: 5px;
+    padding: 2px 20px;
+    margin-right: 5px;
+}
+
+.button-join{
+    background-color: #1c1a1a;
+    color: #ffffff;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+   letter-spacing: 2px;
+
+}
+#contact-info{
+    position:relative;
+    left:280px;
+    top: 60px;
+}
+
+.contact-heading{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100px;
+    font-size: 20px;
+}
+.icons{
+    position: relative;
+    right: 25px;
+    margin-top: -10px;
+}
+.star-bottom img{
+    display: block;
+    width: 40px;
+    position: relative;
+    top:100px;
+    right: 40px;
+}
+.body-part{
+    height: 80vh;
+}
+.navbar-part{
+    height: 20vh;
+}
+/* Write media queries for mobile below */
